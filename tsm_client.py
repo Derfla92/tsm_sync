@@ -7,3 +7,4 @@ clientsocket = socket(AF_INET, SOCK_STREAM)
 client = clientsocket.bind(addr)
 
 clientsocket.connect(addr)
+clientsocket.send(b"hello")
